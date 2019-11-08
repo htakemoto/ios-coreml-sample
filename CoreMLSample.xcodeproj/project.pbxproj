@@ -13,6 +13,7 @@
 		23CC1E1023751170009E8CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1E0E23751170009E8CDC /* Main.storyboard */; };
 		23CC1E1223751171009E8CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1E1123751171009E8CDC /* Assets.xcassets */; };
 		23CC1E1523751171009E8CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1E1323751171009E8CDC /* LaunchScreen.storyboard */; };
+		23CC1E2523751EC9009E8CDC /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1E2423751EC9009E8CDC /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23CC1E1123751171009E8CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CC1E1423751171009E8CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CC1E1623751171009E8CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CC1E2423751EC9009E8CDC /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				23CC1E0A23751170009E8CDC /* SceneDelegate.swift */,
 				23CC1E0C23751170009E8CDC /* ViewController.swift */,
 				23CC1E0E23751170009E8CDC /* Main.storyboard */,
+				23CC1E2423751EC9009E8CDC /* Resnet50.mlmodel */,
 				23CC1E1123751171009E8CDC /* Assets.xcassets */,
 				23CC1E1323751171009E8CDC /* LaunchScreen.storyboard */,
 				23CC1E1623751171009E8CDC /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				23CC1E0D23751170009E8CDC /* ViewController.swift in Sources */,
 				23CC1E0923751170009E8CDC /* AppDelegate.swift in Sources */,
+				23CC1E2523751EC9009E8CDC /* Resnet50.mlmodel in Sources */,
 				23CC1E0B23751170009E8CDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74E38C22VZ;
 				INFOPLIST_FILE = CoreMLSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74E38C22VZ;
 				INFOPLIST_FILE = CoreMLSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
