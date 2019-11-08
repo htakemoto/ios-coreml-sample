@@ -16,21 +16,21 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IbP-T6-dct">
-                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="567" width="375" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkC-P6-8wn">
-                                        <rect key="frame" x="20" y="20" width="335" height="120"/>
+                                        <rect key="frame" x="20" y="20" width="335" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="120" id="bFQ-BQ-LDI"/>
+                                            <constraint firstAttribute="height" constant="20" id="bFQ-BQ-LDI"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLO-FI-4o6">
-                                        <rect key="frame" x="20" y="170" width="335" height="60"/>
+                                        <rect key="frame" x="20" y="60" width="335" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="34b-9Z-TcM"/>
+                                            <constraint firstAttribute="height" constant="20" id="34b-9Z-TcM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -45,7 +45,7 @@
                                     <constraint firstAttribute="trailing" secondItem="lkC-P6-8wn" secondAttribute="trailing" constant="20" id="H11-l5-38l"/>
                                     <constraint firstItem="lkC-P6-8wn" firstAttribute="leading" secondItem="IbP-T6-dct" secondAttribute="leading" constant="20" id="Tje-6f-dC9"/>
                                     <constraint firstAttribute="trailing" secondItem="MLO-FI-4o6" secondAttribute="trailing" constant="20" id="pYc-fp-bSt"/>
-                                    <constraint firstAttribute="height" constant="250" id="sOO-sr-jmH"/>
+                                    <constraint firstAttribute="height" constant="100" id="sOO-sr-jmH"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -61,6 +61,7 @@
                         <outlet property="accuracyLabel" destination="MLO-FI-4o6" id="a5S-ie-0EA"/>
                         <outlet property="belowView" destination="IbP-T6-dct" id="YOs-0e-VMa"/>
                         <outlet property="objectNameLabel" destination="lkC-P6-8wn" id="yzQ-Yj-Msr"/>
+                        <outlet property="previewView" destination="ydP-Jw-XgU" id="ujz-cA-y0o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
